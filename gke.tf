@@ -1,12 +1,12 @@
-variable "gke_username" {
+variable "gKe-Username" {
   default   = ""
   description = "gke username"
 }
-variable "gke_password" {
+variable "gke-password" {
   default   = ""
   description = "gke password"
 }
-variable "gke_num_nodes" {
+variable "gke-num-nodes" {
   default = 2
   description = "number of gke nodes"
 }
